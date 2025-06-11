@@ -46,9 +46,9 @@ export default function Hero() {
               {/* Profile Image */}
               <div className="w-64 h-64 sm:w-80 sm:h-80 md:w-[25rem] md:h-[25rem] bg-slate-800 border border-slate-700 rounded-full shadow-xl animate-float">
                 <img
-                  src="/Nehaphoto.jpg"
+                  src="/neha.jpg"
                   alt="profile"
-                  className="w-full h-full object-cover rounded-full"
+                  className="w-full h-full object-cover object-top rounded-full"
                 />
               </div>
 
@@ -59,7 +59,7 @@ export default function Hero() {
                     <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
                     <span className="relative inline-flex rounded-full h-3 w-3 bg-green-500"></span>
                   </span>
-                  <a href="../public/Nehakumariresume.pdf" download>
+                  <a href="/Resume.pdf" download>
                     <span className="font-medium nav-link text-gray-700 hover:text-blue-600 hover:underline transition-colors">
                       Download Resume
                     </span>

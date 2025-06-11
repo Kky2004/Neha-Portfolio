@@ -27,13 +27,13 @@ export default function Navbar() {
           <div className="flex space-x-4">
                 <a
                   href="https://www.linkedin.com/in/neha-kumari-659025273/"
-                  className="bg-blue-100 text-blue-600 transition-colors p-3 rounded-full hover:text-white hover:bg-slate-900  rounded-full  "
+                  className="bg-blue-100 text-blue-600 transition-colors p-3  hover:text-white hover:bg-slate-900  rounded-full  "
                 >
                   <i className="fab fa-linkedin-in text-lg"></i>
                 </a>
                 <a
                   href="https://github.com/Nehakri2005"
-                  className="bg-blue-100 text-blue-600 hover:text-white hover:bg-slate-900  rounded-full transition-colors p-3 rounded-full"
+                  className="bg-blue-100 text-blue-600 hover:text-white hover:bg-slate-900   transition-colors p-3 rounded-full"
                 >
                   <i className="fab fa-github text-lg"></i>
                 </a>
